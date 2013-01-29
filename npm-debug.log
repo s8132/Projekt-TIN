@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'uuid' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.11
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\package.json
+6 verbose read json C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\socket.io\package.json
+7 verbose read json C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\virtualhost\package.json
+8 verbose read json C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\package.json
+9 verbose cache add [ 'uuid', null ]
+10 silly cache add name=undefined spec="uuid" args=["uuid",null]
+11 verbose parsed url { pathname: 'uuid', path: 'uuid', href: 'uuid' }
+12 silly lockFile 48e3462c-uuid uuid
+13 verbose lock uuid C:\Users\Marcin\AppData\Roaming\npm-cache\48e3462c-uuid.lock
+14 silly lockFile 48e3462c-uuid uuid
+15 verbose addNamed [ 'uuid', '' ]
+16 verbose addNamed [ null, '' ]
+17 silly lockFile eae42566-uuid uuid@
+18 verbose lock uuid@ C:\Users\Marcin\AppData\Roaming\npm-cache\eae42566-uuid.lock
+19 silly addNameRange { name: 'uuid', range: '', hasData: false }
+20 verbose url raw uuid
+21 verbose url resolving [ 'https://registry.npmjs.org/', './uuid' ]
+22 verbose url resolved https://registry.npmjs.org/uuid
+23 info trying registry request attempt 1 at 04:40:47
+24 verbose etag "72JMTF8C7H1W1LJVQ4X30EERU"
+25 http GET https://registry.npmjs.org/uuid
+26 http 304 https://registry.npmjs.org/uuid
+27 silly registry.get cb [ 304,
+27 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+27 silly registry.get     etag: '"72JMTF8C7H1W1LJVQ4X30EERU"',
+27 silly registry.get     date: 'Sun, 27 Jan 2013 03:39:03 GMT',
+27 silly registry.get     'content-length': '0' } ]
+28 verbose etag uuid from cache
+29 silly addNameRange number 2 { name: 'uuid', range: '', hasData: true }
+30 silly addNameRange versions [ 'uuid', [ '0.0.1', '0.0.2' ] ]
+31 verbose addNamed [ 'uuid', '0.0.2' ]
+32 verbose addNamed [ '0.0.2', '0.0.2' ]
+33 silly lockFile 18d223ba-uuid-0-0-2 uuid@0.0.2
+34 verbose lock uuid@0.0.2 C:\Users\Marcin\AppData\Roaming\npm-cache\18d223ba-uuid-0-0-2.lock
+35 verbose read json C:\Users\Marcin\AppData\Roaming\npm-cache\uuid\0.0.2\package\package.json
+36 warn package.json uuid@0.0.2 No README.md file found!
+37 silly lockFile 18d223ba-uuid-0-0-2 uuid@0.0.2
+38 silly lockFile eae42566-uuid uuid@
+39 silly resolved [ { name: 'uuid',
+39 silly resolved     description: 'Simple libuuid bindings to allow UUIDs to be generated from JS.',
+39 silly resolved     version: '0.0.2',
+39 silly resolved     author: { name: 'Nikhil Marathe' },
+39 silly resolved     repository: { type: 'hg', url: 'http://bitbucket.org/nikhilm/uuidjs' },
+39 silly resolved     engine: [ 'node >=0.1.103' ],
+39 silly resolved     scripts: { preinstall: 'node-waf configure && node-waf build' },
+39 silly resolved     main: 'build/default/uuid.node',
+39 silly resolved     _id: 'uuid@0.0.2',
+39 silly resolved     readme: 'ERROR: No README.md file found!',
+39 silly resolved     _from: 'uuid' } ]
+40 info install uuid@0.0.2 into C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN
+41 info installOne uuid@0.0.2
+42 verbose from cache C:\Users\Marcin\AppData\Roaming\npm-cache\uuid\0.0.2\package\package.json
+43 info C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid unbuild
+44 verbose read json C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid\package.json
+45 verbose tar unpack C:\Users\Marcin\AppData\Roaming\npm-cache\uuid\0.0.2\package.tgz
+46 silly lockFile 38a2d071-kt-Projekt-TIN-node-modules-uuid C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid
+47 verbose lock C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid C:\Users\Marcin\AppData\Roaming\npm-cache\38a2d071-kt-Projekt-TIN-node-modules-uuid.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+53 silly gunzTarPerm extractEntry test.js
+54 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+55 silly gunzTarPerm extractEntry .hgignore
+56 silly gunzTarPerm modified mode [ '.hgignore', 438, 420 ]
+57 silly gunzTarPerm extractEntry .hg_archival.txt
+58 silly gunzTarPerm modified mode [ '.hg_archival.txt', 438, 420 ]
+59 silly gunzTarPerm extractEntry src/uuid.cc
+60 silly gunzTarPerm modified mode [ 'src/uuid.cc', 438, 420 ]
+61 silly gunzTarPerm extractEntry src/uuid.h
+62 silly gunzTarPerm modified mode [ 'src/uuid.h', 438, 420 ]
+63 silly gunzTarPerm extractEntry wscript
+64 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+65 verbose read json C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid\package.json
+66 silly lockFile 38a2d071-kt-Projekt-TIN-node-modules-uuid C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid
+67 info preinstall uuid@0.0.2
+68 verbose unsafe-perm in lifecycle true
+69 silly exec cmd "/c" "node-waf configure && node-waf build"
+70 silly cmd,/c,node-waf configure && node-waf build,C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid spawning
+71 info uuid@0.0.2 Failed to exec preinstall script
+72 info C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid unbuild
+73 verbose from cache C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules\uuid\package.json
+74 info preuninstall uuid@0.0.2
+75 info uninstall uuid@0.0.2
+76 verbose true,C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules,C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN\node_modules unbuild uuid@0.0.2
+77 info postuninstall uuid@0.0.2
+78 error uuid@0.0.2 preinstall: `node-waf configure && node-waf build`
+78 error `cmd "/c" "node-waf configure && node-waf build"` failed with 1
+79 error Failed at the uuid@0.0.2 preinstall script.
+79 error This is most likely a problem with the uuid package,
+79 error not with npm itself.
+79 error Tell the author that this fails on your system:
+79 error     node-waf configure && node-waf build
+79 error You can get their info via:
+79 error     npm owner ls uuid
+79 error There is likely additional logging output above.
+80 error System Windows_NT 6.1.7601
+81 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "uuid"
+82 error cwd C:\Users\Marcin\PJWSTK\TIN\projekt\Projekt-TIN
+83 error node -v v0.8.11
+84 error npm -v 1.1.62
+85 error code ELIFECYCLE
+86 verbose exit [ 1, true ]

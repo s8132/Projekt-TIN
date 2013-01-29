@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LogAnalyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>    
+    <script src="/js/highcharts.js" type="text/javascript"></script>
+    <script src="picnet.table.filter.min.js"></script>
+    <script src="skrypt.js"></script>
+  </head>  
+  <body>
+    <div id="top">
+      <ul>
+        <li><img src="LogAnalyzer.png" height="80"></li>
+      </ul>
+    </div>
+    <div id="logs">
+        
+    </div>
+    <div id="logsTable">
+        <table id="tabelka" border="0" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>IP</th>
+              <th>Host</th>
+              <th>Method</th>
+              <th>Path</th>
+              <th filter-type='ddl'>HTTP Status</th>
+              <th>User-agent</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>  
+    </div>
+    <div id="host1">
+      <h1>Host 1 +</h1>
+      <!--<div id="pages">
+        Wejsc na strone:
+        <ul>
+
+        </ul>
+      </div>-->
+      <div id="graphPage">
+
+      </div>
+    </div>
+    <div id="host2">
+      <h1>Host 2</h1>
+    </div>
+    <div id="host3">
+      <h1>Host 3</h1>
+    </div>
+  </body>
+</html>
