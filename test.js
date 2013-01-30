@@ -33,6 +33,10 @@ obj2.forEach(function(k, v){
 
 console.log(tab);
 
+var str = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0";
+
+console.log(str.match(/Firefox/)[0]==="Firefox");
+
 // console.log(obj);
 
 // var str = "28.01.2013 4:21:25";
